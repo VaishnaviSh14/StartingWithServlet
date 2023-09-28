@@ -5,6 +5,16 @@ Servlets are Java-based web components used for developing web applications. The
 ## FirstServletApp 
 It defines a simple servlet that responds to GET requests by sending an HTML page with a welcome message. It also includes lifecycle methods and demonstrates when these methods are invoked during the servlet's lifecycle. 
 
+# Creating a Webapplication for static resource
++++++++++++++++++++++++++++++++++++++++++++++
+# SecondServletApp
+|=> webapp(public area)
+|=> index.html(default landing page)
+
+request(static request) :: http://localhost:9999/SecondServletApp/
+
+response(static response) :: copy of index.html will be sent
+
 # Steps followed by the client to handle the request
 a. browser sends the request(either for static or for dynamic)
 
