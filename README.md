@@ -1,4 +1,10 @@
 # StartingWithServlet
+
+Servlets are Java-based web components used for developing web applications. They can handle various types of HTTP requests and generate dynamic web content.
+
+## FirstServletApp 
+It defines a simple servlet that responds to GET requests by sending an HTML page with a welcome message. It also includes lifecycle methods and demonstrates when these methods are invoked during the servlet's lifecycle. 
+
 # Steps followed by the client to handle the request
 a. browser sends the request(either for static or for dynamic)
 
