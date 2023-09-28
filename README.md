@@ -14,6 +14,13 @@ request(static request) :: http://localhost:9999/SecondServletApp/
 
 response(static response) :: copy of index.html will be sent
 
+# Student Registration App
+ "Student Registration Page" serves as a user-friendly web interface for students to input their registration information, including name, address, and mobile number. Upon submitting the form, the data is sent to a server for processing, which is typically handled by a server-side script or servlet.
+
+ <img width="959" alt="image" src="https://github.com/VaishnaviSh14/StartingWithServlet/assets/123576868/77b292fe-4b37-4e9a-a304-f855f49abd40">
+
+<img width="959" alt="image" src="https://github.com/VaishnaviSh14/StartingWithServlet/assets/123576868/3b1513b5-f44c-4dc1-b861-967b222b8e79">
+ 
 # Steps followed by the client to handle the request
 a. browser sends the request(either for static or for dynamic)
 
