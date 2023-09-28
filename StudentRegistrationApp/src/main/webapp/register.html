@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Registration Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #E6F7FF; /* Light blue background color */
+    text-align: center;
+  }
+
+  h1 {
+    color: #007BFF; /* Blue heading color */
+    padding-top: 20px; /* Add some top spacing */
+  }
+
+  table {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  tr {
+    margin-bottom: 10px;
+  }
+
+  td {
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    transition: border-color 0.3s;
+  }
+
+  input[type="text"]:focus {
+    border-color: #007BFF;
+  }
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<h1>Student Registration Page</h1>
+<form method="post" action="./reg">
+<table>
+   <tr>
+     <td>
+         Name
+     </td>
+     <td>
+         <input type="text" name="username" required/>
+     </td>
+   </tr>
+   
+      <tr>
+     <td>
+         Address
+     </td>
+     <td>
+         <input type="text" name="useraddr" required/>
+     </td>
+   </tr>
+   
+      <tr>
+     <td>
+         MobileNo
+     </td>
+     <td>
+         <input type="text" name="usermobile" required/>
+     </td>
+   </tr>
+   
+   <tr>
+     <td></td>
+     <td>
+       <input type="submit" value="Register"/>
+     </td>
+   </tr>
+</table>
+</form>
+</body>
+</html>
+
