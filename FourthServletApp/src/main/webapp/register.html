@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Registration Page</h1>
+    <form method="post" action="./save">
+        <table>
+            <tr>
+                <th>SNAME</th>
+                <td>
+                    <input type="text" name="sname" />
+                </td>
+            </tr>
+            <tr>
+                <th>SAGE</th>
+                <td>
+                    <input type="text" name="sage" />
+                </td>
+            </tr>
+            <tr>
+                <th>SADDR</th>
+                <td>
+                    <input type="text" name="saddr" />
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <td>
+                    <input type="submit" value="Register" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
