@@ -23,6 +23,8 @@ response(static response) :: copy of index.html will be sent
 
 # Student Registartion Using JDBC - FouthServletApp
 
+This Java Servlet, when invoked through an HTTP request, accepts student details such as name, age, and course. It processes this data and then uses JDBC to establish a connection with a MySQL database. Subsequently, it inserts the student's information into the database. Finally, it returns a web page to acknowledge the successful data insertion or any potential errors.
+
 <img width="960" alt="image" src="https://github.com/VaishnaviSh14/StartingWithServlet/assets/123576868/e450f8ab-a80b-4f3e-a7f6-02758b980f96">
 
 <img width="960" alt="image" src="https://github.com/VaishnaviSh14/StartingWithServlet/assets/123576868/509149de-dc18-4596-afab-2664e369d558">
